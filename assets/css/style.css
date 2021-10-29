@@ -1,0 +1,42 @@
+h1 {
+    text-align: center;
+    padding: 20px;
+    background-color: rgb(14, 80, 180);
+    color: white;
+}
+
+main {
+    display: flex;
+    justify-content: space-around;
+}
+
+#search-panel {
+    border-right: solid 1px gray;
+    padding: 15px;
+}
+
+#current-conditions {
+    padding: 10px;
+}
+
+#forecast-card-container {
+    display: flex;
+}
+
+.forecast-cards {
+    width: 150px;
+    background-color:rgb(14, 80, 180);
+    color: white;
+    margin-top: 2%;
+    margin-left: 1%;
+    margin-right: 1%;
+}
+
+#recent-list {
+    display: flex;
+    flex-direction: column;
+}
+
+.recent-button {
+    margin: 1%;
+}
